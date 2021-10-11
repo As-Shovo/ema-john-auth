@@ -28,7 +28,7 @@ function App() {
           <Route path="/placeorder">
             <PlaceOrder></PlaceOrder>
           </Route>
-          <Route path="*">
+          <Route path = "*">
             <NotFound></NotFound>
           </Route>
         </Switch>
